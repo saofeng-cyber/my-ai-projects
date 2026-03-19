@@ -25,4 +25,3 @@ retriever = vectorstore.as_retriever()
 #从langchain官网拉取预先定义好的prompt
 prompt = hub.pull("langchain-ai/rag-fusion-query-generation")
 print(prompt)
-help(retriever)
