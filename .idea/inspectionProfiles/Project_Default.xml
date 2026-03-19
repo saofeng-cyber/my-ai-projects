@@ -1,0 +1,90 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="aiofiles" />
+          <option value="altair" />
+          <option value="annotated-doc" />
+          <option value="annotated-types" />
+          <option value="anyio" />
+          <option value="attrs" />
+          <option value="blinker" />
+          <option value="brotli" />
+          <option value="cachetools" />
+          <option value="certifi" />
+          <option value="charset-normalizer" />
+          <option value="click" />
+          <option value="colorama" />
+          <option value="distro" />
+          <option value="fastapi" />
+          <option value="ffmpy" />
+          <option value="filelock" />
+          <option value="fsspec" />
+          <option value="gitdb" />
+          <option value="GitPython" />
+          <option value="gradio" />
+          <option value="gradio_client" />
+          <option value="groovy" />
+          <option value="h11" />
+          <option value="hf-xet" />
+          <option value="httpcore" />
+          <option value="httpx" />
+          <option value="huggingface_hub" />
+          <option value="idna" />
+          <option value="Jinja2" />
+          <option value="jiter" />
+          <option value="jsonschema" />
+          <option value="jsonschema-specifications" />
+          <option value="markdown-it-py" />
+          <option value="MarkupSafe" />
+          <option value="mdurl" />
+          <option value="narwhals" />
+          <option value="numpy" />
+          <option value="openai" />
+          <option value="orjson" />
+          <option value="packaging" />
+          <option value="pandas" />
+          <option value="pillow" />
+          <option value="protobuf" />
+          <option value="pyarrow" />
+          <option value="pydantic" />
+          <option value="pydantic_core" />
+          <option value="pydeck" />
+          <option value="pydub" />
+          <option value="Pygments" />
+          <option value="python-dateutil" />
+          <option value="python-multipart" />
+          <option value="pytz" />
+          <option value="PyYAML" />
+          <option value="referencing" />
+          <option value="requests" />
+          <option value="rich" />
+          <option value="rpds-py" />
+          <option value="safehttpx" />
+          <option value="semantic-version" />
+          <option value="shellingham" />
+          <option value="six" />
+          <option value="smmap" />
+          <option value="sniffio" />
+          <option value="starlette" />
+          <option value="streamlit" />
+          <option value="tenacity" />
+          <option value="toml" />
+          <option value="tomlkit" />
+          <option value="tornado" />
+          <option value="tqdm" />
+          <option value="typer" />
+          <option value="typer-slim" />
+          <option value="typing-inspection" />
+          <option value="typing_extensions" />
+          <option value="tzdata" />
+          <option value="urllib3" />
+          <option value="uvicorn" />
+          <option value="watchdog" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

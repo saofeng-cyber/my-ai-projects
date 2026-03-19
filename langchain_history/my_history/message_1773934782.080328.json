@@ -1,0 +1,77 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "hi",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好！有什么我可以帮助你的吗？",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我是你爸爸",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我是人工智能，没有人类亲属关系。请问有什么具体问题需要帮助吗？",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "没什么",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "好的，如果你有其他问题，随时问我。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  }
+]

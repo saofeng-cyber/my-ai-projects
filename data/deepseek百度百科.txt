@@ -1,0 +1,24 @@
+DeepSeek，全称杭州深度求索人工智能基础技术研究有限公司。DeepSeek是一家创新型科技公司，成立于2023年7月17日 ，使用数据蒸馏技术，得到更为精炼、有用的数据。由知名私募巨头幻方量化孕育而生，专注于开发先进的大语言模型（LLM）和相关技术。注册地址：浙江省杭州市拱墅区环城北路169号汇金国际大厦西1幢1201室。法定代表人为裴湉，经营范围包括技术服务、技术开发、软件开发等。
+2024年1月5日至6月，相继发布DeepSeek LLM、DeepSeek-Coder、DeepSeekMath、DeepSeek-VL、DeepSeek-V2、DeepSeek-Coder-V2模型。 2024年9月5日，更新API支持文档，宣布合并DeepSeek Coder V2和DeepSeek V2 Chat，推出DeepSeek V2.5。12月13日，发布DeepSeek-VL2。12月26日，正式上线DeepSeek-V3首个版本并同步开源。2025年1月31日，英伟达宣布DeepSeek-R1模型登陆NVIDIANIM。同一时段内，亚马逊和微软也接入DeepSeek-R1模型。 2月5日，DeepSeek-R1、V3、Coder等系列模型，已陆续上线国家超算互联网平台。2月6日消息，澳大利亚政府以所谓“担心安全风险”为由，已禁止在所有政府设备中使用DeepSeek。2月8日，DeepSeek正式登陆苏州，并在苏州市公共算力服务平台上完成部署上线，为用户提供开箱即用的软硬件一体服务。 截至2月9日，DeepSeek App的累计下载量已超1.1亿次，周活跃用户规模最高近9700万。 2月20日消息，已有超200家企业宣布接入DeepSeek。 2月26日，DeepSeek宣布开源DeepGEMM。
+
+发展历程
+早期发展
+DeepSeek成立于2023年7月17日，由知名量化资管巨头幻方量化创立。DeepSeek是一家创新型科技公司，长久以来专注于开发先进的大语言模型（LLM）和相关技术，作为大厂外唯一一家储备万张A100芯片的公司，幻方量化为DeepSeek的技术研发提供了强大的硬件支持。
+2023年8月2日，注册资本变更为1000万元，章程备案，投资人变更为宁波程恩企业管理咨询合伙企业（有限合伙），市场主体类型变更为其他有限责任公司。
+2024年5月7日，DeepSeek发布了MoE架构的DeepSeek V2。两天后，第一财经技术中心就对DeepSeek发布的技术报告和模型进行了深度分析与研究。经过严谨的评估，团队认为DeepSeek V2在架构设计、性能表现等方面与财经垂类大模型的需求高度契合，于是果断决定将基座模型迁移至DeepSeek V2，并迅速启动了以DeepSeek V2为主力基座模型的财经垂类大模型的训练与应用研发工作。
+2024年9月5日，DeepSeek官方更新API支持文档，宣布合并DeepSeek Coder V2和DeepSeek V2 Chat两个模型，升级推出全新的DeepSeek V2.5新模型。官方表示为向前兼容，API用户通过deepseek-coder或deepseek-chat均可以访问新的模型。
+
+主要产品
+2024年1月5日，发布DeepSeek LLM，这是深度求索的第一个大模型。DeepSeek LLM包含670亿参数，从零开始在一个包含2万亿token的数据集上进行了训练，数据集涵盖中英文。全部开源DeepSeek LLM 7B/67B Base和DeepSeek LLM 7B/67B Chat，供研究社区使用。DeepSeek LLM 67B Base在推理、编码、数学和中文理解等方面超越了Llama2 70B Base。DeepSeek LLM 67B Chat在编码和数学方面表现出色。它还展现了显著的泛化能力，在匈牙利国家高中考试中取得了65分的成绩。当然，它还精通中文：DeepSeek LLM 67B Chat在中文表现上超越了GPT-3.5。
+2024年1月25日，发布DeepSeek-Coder，DeepSeek Coder由一系列代码语言模型组成，每个模型均从零开始在2万亿token上训练，数据集包含87%的代码和13%的中英文自然语言。代码模型尺寸从1B到33B版本不等。每个模型通过在项目级代码语料库上进行预训练，采用16K的窗口大小和额外的填空任务，以支持项目级代码补全和填充。DeepSeek Coder在多种编程语言和各种基准测试中达到了开源代码模型的最先进性能。
+2024年2月5日，发布DeepSeekMath，DeepSeekMath以DeepSeek-Coder-v1.5 7B为基础，继续在从Common Crawl中提取的数学相关token以及自然语言和代码数据上进行预训练，训练规模达5000亿token。DeepSeekMath 7B在竞赛级MATH基准测试中取得了51.7%的优异成绩，且未依赖外部工具包和投票技术，接近Gemini-Ultra和GPT-4的性能水平。
+2024年3月11日，发布DeepSeek-VL，DeepSeek-VL是一个开源的视觉-语言（VL）模型，采用了混合视觉编码器，能够在固定的token预算内高效处理高分辨率图像（1024x1024），同时保持相对较低的计算开销。这一设计确保了模型在各种视觉任务中捕捉关键语义和细节信息的能力。DeepSeek-VL系列（包括1.3B和7B模型）在相同模型尺寸下，在广泛的视觉-语言基准测试中达到了最先进或可竞争的性能。
+2024年5月7日，发布第二代开源Mixture-of-Experts（MoE）模型——DeepSeek-V2。DeepSeek-V2是一个强大的混合专家（MoE）语言模型，以经济高效的训练和推理为特点。它包含2360亿个总参数，其中每个token激活210亿个参数。与DeepSeek 67B相比，DeepSeek-V2不仅实现了更强的性能，同时还节省了42.5%的训练成本，将KV缓存减少了93.3%，并将最大生成吞吐量提升至5.76倍。在一个包含8.1万亿token的多样化且高质量的语料库上对DeepSeek-V2进行了预训练。在完成全面的预训练后，通过监督微调（SFT）和强化学习（RL）进一步释放了模型的潜力。评估结果验证了方法的有效性，DeepSeek-V2在标准基准测试和开放式生成评估中均取得了显著的表现。 [9]DeepSeek V2模型因在中文综合能力评测中的出色表现，且以极低的推理成本引发行业关注，被称为“AI界的拼多多”。
+2024年6月17日，发布DeepSeek-Coder-V2，DeepSeek-Coder-V2是一个开源的混合专家（MoE）代码语言模型，在代码特定任务中达到了与GPT4-Turbo相当的性能。DeepSeek-Coder-V2是从DeepSeek-V2的一个中间检查点开始，进一步预训练了额外的6万亿token，显著增强了DeepSeek-V2的编码和数学推理能力，同时在通用语言任务中保持了相当的性能。并在代码相关任务、推理能力和通用能力等多个方面都取得了显著进步。此外，DeepSeek-Coder-V2将支持的编程语言从86种扩展到338种，并将上下文长度从16K扩展到128K。在标准基准测试中，DeepSeek-Coder-V2在编码和数学基准测试中表现优异，超越了GPT4-Turbo、Claude 3 Opus和Gemini 1.5 Pro等闭源模型。
+2024年12月13日，发布用于高级多模态理解的专家混合视觉语言模型——DeepSeek-VL2，DeepSeek-VL2是一个先进的大型混合专家（MoE）视觉-语言模型系列，相较于其前身DeepSeek-VL有了显著改进。DeepSeek-VL2在多种任务中展现了卓越的能力，包括但不限于视觉问答、光学字符识别、文档/表格/图表理解以及视觉定位。模型系列由三个变体组成：DeepSeek-VL2-Tiny、DeepSeek-VL2-Small和DeepSeek-VL2，分别具有10亿、28亿和45亿激活参数。与现有的开源密集模型和基于MoE的模型相比，DeepSeek-VL2在相似或更少的激活参数下实现了具有竞争力或最先进的性能。
+2024年12月26日晚，AI公司深度求索（DeepSeek）正式上线全新系列模型DeepSeek-V3首个版本并同步开源。 [1-2]DeepSeek-V3在知识类任务（MMLU, MMLU-Pro, GPQA, SimpleQA）上的水平相比前代DeepSeek-V2.5显著提升，接近当前表现最好的模型Anthropic公司于10月发布的Claude-3.5-Sonnet-1022。在美国数学竞赛（AIME 2024, MATH）和全国高中数学联赛（CNMO 2024）上，DeepSeek-V3大幅超过了其他所有开源闭源模型。另外，在生成速度上，DeepSeek-V3的生成吐字速度从20TPS（Transactions Per Second每秒完成的事务数量）大幅提高至60TPS，相比V2.5模型实现了3倍的提升，能够带来更加流畅的使用体验。
+2025年1月15日，深度求索（DeepSeek）公司正式发布DeepSeek官方App，其上线平台包括苹果App Store、小米应用商店、华为应用市场、荣耀应用市场、OPPO软件商店等。用户安装后即可免费与DeepSeek-V3模型互动交流。
+2025年1月20日，DeepSeek正式发布DeepSeek-R1模型，并同步开源模型权重。DeepSeek-R1在后训练阶段大规模使用了强化学习技术，在仅有极少标注数据的情况下，极大提升了模型推理能力。 DeepSeek-V3和DeepSeek-R1两款大模型，成本价格低廉，性能与OpenAI相当，让硅谷震惊，甚至引发了Meta内部的恐慌，工程师们开始连夜尝试复制DeepSeek的成果。
+2025年2月10日消息，长安汽车已完成Deepseek深度融合，助力北斗天枢2.0计划加速落地。2月12日行业首发量产搭载上市。
+2025年2月，北京市多区已开展实践探索，将智慧城市管理平台、政务服务平台等接入部署DeepSeek大模型，利用人工智能赋能城市管理、政府服务和基层社会治理。
+2025年3月1日，杭州文旅智能体“杭小忆”全面接入DeepSeek-R1。
